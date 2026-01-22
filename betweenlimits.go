@@ -1,5 +1,6 @@
 package sprint
 
+
 func Doop(a int, op string, b int) int {
 	switch op {
 	case "+":
@@ -22,3 +23,4 @@ func Doop(a int, op string, b int) int {
 		return 0
 	}
 }
+
