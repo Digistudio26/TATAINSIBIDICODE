@@ -1,9 +1,8 @@
 package main
 
-import "fmt"
 
 func main() {
-	fmt.Println(ReverseAlphabetValue('g'))
+               println(ReverseAlphabetValue('a'))
 }
 
 func ReverseAlphabetValue(ch rune) rune {
