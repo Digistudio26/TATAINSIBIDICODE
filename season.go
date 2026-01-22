@@ -1,7 +1,10 @@
+// You can edit this code!
+// Click here and start typing.
 package main
 
-import "fmt"
-
+func main() {
+	println("feb", "september")
+}
 func Season(month string) string {
 	switch month {
 	case "jan", "feb", "dec":
@@ -15,9 +18,4 @@ func Season(month string) string {
 	default:
 		return "invalid input: " + month
 	}
-}
-
-func main() {
-	fmt.Println(Season("feb"))
-	fmt.Println(Season("September"))
 }
