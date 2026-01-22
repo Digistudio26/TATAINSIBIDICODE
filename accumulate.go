@@ -16,3 +16,10 @@ func Accumulate(n int) int {
 
 	return sum
 }
+
+func main() {
+	fmt.Println(Accumulate(4))  // Output: 10
+	fmt.Println(Accumulate(0))  // Output: 0
+	fmt.Println(Accumulate(-5)) // Output: 0
+}     
+
