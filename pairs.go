@@ -1,7 +1,8 @@
-
 package main
 
 import "fmt"
+
+
 
 func Pairs() string {
 	result := ""
@@ -15,8 +16,4 @@ func Pairs() string {
 		}
 	}
 	return result
-}
-
-func main() {
-	println(Pairs())
 }
