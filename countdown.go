@@ -1,5 +1,5 @@
 
-package main
+package sprint
 
 
 func Countdown(n int) string {
@@ -7,7 +7,7 @@ func Countdown(n int) string {
 
 	for i := n; i > 0; i -= 2 {
 		result += string(rune(i)) + ", "
-		//result += fmt.Sprintf("%d, ", i) // convert i to string and add comma
+		
 	}
 
 	result += "0!" 
