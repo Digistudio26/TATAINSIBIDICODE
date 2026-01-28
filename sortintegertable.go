@@ -6,4 +6,6 @@ func SortIntegerTable(table []int){
 	type SortBy []Type
 	
 	 Sort.ints(table)
-	   return table
+    
+	   return table 
+}
