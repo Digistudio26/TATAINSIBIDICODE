@@ -1,4 +1,4 @@
-package sprint
+package main
 
 func main() {
 	fmt.Println(RemoveElementsInRange([]float64{10., .8, -.4, 20., 7.7, 3.}, 4, 1))
