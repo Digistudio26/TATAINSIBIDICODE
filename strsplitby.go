@@ -1,6 +1,10 @@
 package main
 
 func StrSplitBy(s, sep string) []string {
+	if s == "" {
+		return []string{}
+	}
+
 	if sep == "" {
 		return []string{s}
 	}
