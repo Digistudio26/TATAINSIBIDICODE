@@ -1,6 +1,6 @@
-package main
+package sprint
 
-
+import "fmt"
 
 type Point struct {
 	X    float64
