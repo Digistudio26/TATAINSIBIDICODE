@@ -1,7 +1,5 @@
 package main
 
-
-
 func StrToInt(s string) int {
 	if s == "" {
 		return 0
@@ -25,4 +23,12 @@ func StrToInt(s string) int {
 		return -n
 	}
 	return n
+}
+
+func BulkAtoi(arr []string) []int {
+	res := make([]int, len(arr))
+	for i, v := range arr {
+		res[i] = StrToInt(v)
+	}
+	return res
 }
