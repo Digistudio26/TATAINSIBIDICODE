@@ -1,6 +1,4 @@
-package main
-
-import "fmt"
+package sprint
 
 func Accumulate(n int) int {
 	if n < 0 {
@@ -15,6 +13,5 @@ func Accumulate(n int) int {
 	return sum
 }
 
-func main() {
-	fmt.Println(Accumulate(5))
-}
+
+

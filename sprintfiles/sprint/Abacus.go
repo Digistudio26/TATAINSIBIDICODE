@@ -3,7 +3,7 @@
 package main
 
 func main() {
-	println(Abacus(20, 10))
+	println(Abacus(15, 10))
 }
 func Abacus(a int, b int) int {
 	return a / b
